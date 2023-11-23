@@ -16,9 +16,10 @@ for(i = 0; i<whiteList.length;i++){
     }
 }
 
- /* Se il numero di notEqual è uguale al numero di elemenenti array l'email non è presente nella white list */
+/* Se il numero di notEqual è uguale al numero di elemenenti array l'email non è presente nella white list */
 if(notEqual == whiteList.length){
     console.log('Non sei ammesso');
 }
+
 
 
