@@ -9,7 +9,7 @@ for(i = 0; i<whiteList.length;i++){
     if(emailInput === whiteList[i]){
         console.log('Sei ammesso');
         /* Quando l'utente è uguale esce dal ciclo */
-        i = whiteList.length;
+        break;
     } else{
         /* Se l'email è diversa viene aggiunto al not equal e ripetuto il controllo successivo */
         notEqual++
